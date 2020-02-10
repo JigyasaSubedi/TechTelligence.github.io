@@ -1,5 +1,9 @@
 .parafo{
-    color: green;  
+    color: royalblue;
+    font-family: serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3em;
 }
 
 #title{
