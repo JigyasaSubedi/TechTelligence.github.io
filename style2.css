@@ -15,3 +15,8 @@ body {
 #title{
     color: red;
 }
+
+.scroll {
+  max-height: 450px;
+  overflow-y: auto;
+}
