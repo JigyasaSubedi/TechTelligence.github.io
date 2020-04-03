@@ -1,0 +1,18 @@
+.parafo{
+    color: darkslategrey;
+    font-family: serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3em;
+    text-align: center;
+}
+
+body {
+  background-color: lightcyan;
+  background-image: url(https://www.wallpaperflare.com/static/551/748/930/polar-bear-ice-minimalism-white-wallpaper.jpg);
+  background-size: 100%;
+}
+
+#title{
+    color: red;
+}
