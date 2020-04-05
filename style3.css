@@ -1,0 +1,32 @@
+html, body{
+    background: linear-gradient(to left, #33ccff, #ccffff);
+    color: #000;
+    font-weight: lighter;
+}
+.h1{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.wrapper{
+    padding-top: 55px;
+    transform: rotate(45deg);
+    padding-left: 100px;
+}
+.box{
+    background-color: #262626;
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+}
+.box:hover{
+    background-color: grey;
+    color:white;
+}
+.box p{
+    transform: rotate(-45deg);
+    padding: 40px;
+    font-size: 25px;
+    color: #ffffff;
+}
