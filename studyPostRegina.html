@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="studyPostPage.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title id="title">PolarPals</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+        <a class="navbar-brand" href="index.html">
+             POLARPALS 
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ml-auto">
+            <img src="logo.jpg" width="35" height="40" class="nav navbar-nav navbar-logo mx-auto rounded" alt="">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Your Name</a>
+            </li>
+
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Settings  
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">My Profile</a>
+                    <a class="dropdown-item" href="#">Privacy</a> 
+                    <a class="dropdown-item" href="#">System Settings</a>
+                </div>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Log Out</a>
+            </li>
+
+          </ul>
+        </div>
+    </nav>
+    <br><br>
+
+    <!-- Main content-->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!-- Post box -->
+            <div class="col-sm-7 scroll">
+                <div class="card bg-light text-dark">
+                    <div class="card-header sticky-top">
+                        Regina George
+                        <br> Freshman
+                        <br> CSCI 1101: Introduction to Computer Science
+                        <br> Posted 05/02/2020 at 9:08 AM
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Weeky Study Squad</h5>
+                        <p class="card-text">
+                            Join my group if ur cool. Don't bother going to Clarissa's group, lol.
+                           <br><br> We will be at HL first floor @7:30 PM. 
+                        </p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <button class="btn btn-primary btn-sm"
+                        style="color:white"> 
+                            Like this post
+                        </button>
+
+                        <button class="btn btn-primary btn-sm"
+                        style="color:white"> 
+                            Message post owner
+                        </button>
+
+                        <button class="btn btn-primary btn-sm"
+                        style="color:white"> 
+                            Save for later
+                        </button>
+                         
+                    </div>
+                </div> 
+            </div>
+
+            <!-- Comment box -->
+            <div class="col-sm-5 scroll">
+                <div class="card bg-light text-dark">
+                    <div class="card-header sticky-top">
+                        <h4 class="card-title">Comments</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="card border-primary mb-3">
+                            <div class="card-header">Clarissa Mayes</div>                           
+                            <div class="card-body">...Fine</div>
+                            <div class="card-footer text-right">05/02/2020 at 11:01 AM</div>    
+                        </div>
+
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-end">
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                  <span aria-hidden="true">&laquo;</span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                              </li>
+                              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                  <span aria-hidden="true">&raquo;</span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </nav>
+                    </div>
+                    <div class="card-footer">
+                        <form>
+                            <div class="form-group">
+                                <label for="userComment">Write a comment</label>
+                                <textarea class="form-control" rows="5" id="userComment"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary float-right">Submit</button>
+                        </form>
+                    </div>  
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <!-- bottom stuffs (fixed bottom)-->
+    <div class="container-fluid">
+        <div class="card bg-dark text-light fixed-bottom">
+            <div class="card-body">
+
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="index.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link text-white" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link text-white" href="#">FAQs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link text-white" href="#">Help</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="https://www.bowdoin.edu/">Bowdoin Resources</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="https://www.bowdoin.edu/covid-19/index.html">COVID-19 FAQs</a>
+                </li>
+                <li class="nav-item ml-auto">
+                    <a class="nav-link text-muted">TechTelligence Co.</a>
+                </li>
+              </ul>
+
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
