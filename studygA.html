@@ -13,7 +13,7 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <img src="logo.jpg" width="35" height="35" class="nav navbar-nav navbar-logo mx-auto rounded" alt="">
+        <img src="logo.jpg" width="35" height="40" class="nav navbar-nav navbar-logo mx-auto rounded" alt="">
         <a class="navbar-brand" href="index.html">
             &nbsp&nbsp POLARPALS
         </a>
@@ -163,7 +163,72 @@
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                             <div class="card-body">
-                                Form will be here.
+                                <form>
+                                    <div class="form-group row">
+                                      <label for="courseSelect1" class="col-sm-2 col-form-label">Course</label>
+                                      <div class="col-sm-10">
+                                        <select class="form-control" id="courseSelect1">
+                                            <option>ECON 1101</option>
+                                            <option>CSCI 3715</option>
+                                            <option>SOC 1101</option>
+                                            <option>VART 2101</option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div class="form-group row">
+                                      <label for="postDescription" class="col-sm-2 col-form-label">Title</label>
+                                      <div class="col-sm-10">
+                                        <input type="title" class="form-control" id="postDescription" placeholder="Group name, purpose, or something else">
+                                      </div>
+                                    </div>
+                                    <fieldset class="form-group">
+                                      <div class="row">
+                                        <legend class="col-form-label col-sm-2 pt-0">Post creator</legend>
+                                        <div class="col-sm-10">
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                            <label class="form-check-label" for="gridRadios1">
+                                              Use profile full name
+                                            </label>
+                                          </div>
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                            <label class="form-check-label" for="gridRadios2">
+                                              Use preferred name
+                                            </label>
+                                          </div>
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                                            <label class="form-check-label" for="gridRadios3">
+                                              Be anonymous
+                                            </label>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </fieldset>
+                                    <div class="form-group row">
+                                        <label for="postDescription" class="col-sm-2 col-form-label">Details</label>
+                                        <div class="col-sm-10">
+                                            <textarea class="form-control" id="postDescription" rows="3" placeholder="Consider study goals, frequency, location, time, materials, etc. Don't include sensitive information, and please be respectful."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                      <div class="col-sm-2">Optional</div>
+                                      <div class="col-sm-10">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                          <label class="form-check-label" for="gridCheck1">
+                                            Include your class year
+                                          </label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="form-group row">
+                                      <div class="col-sm-10">
+                                        <button type="submit" class="btn btn-primary">Post</button>
+                                      </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
