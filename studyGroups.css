@@ -1,6 +1,6 @@
 .parafo{
-    color: white;
-    font-family: sans-serif;
+    color: rgb(66, 63, 63);
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 1.5em;
     text-align: center;
@@ -8,7 +8,7 @@
 
 body {
   background-color: lightcyan;
-  background-image: url(https://www.wallpaperflare.com/static/551/748/930/polar-bear-ice-minimalism-white-wallpaper.jpg);
+  background-image: linear-gradient(to right, #82AAF5, #C0CDF2, pink);
   background-size: 100%;
 }
 
