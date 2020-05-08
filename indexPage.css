@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://www.wallpaperflare.com/static/551/748/930/polar-bear-ice-minimalism-white-wallpaper.jpg);
+    background-image: url(wallpaper.jpg);
     background-size: 100%;
     color: #000;
     /*
@@ -33,6 +33,10 @@ body{
     font-size: 25px;
     color: #ffffff;
 }
-.transparent {
+#transparent {
     background-color: rgba(255,255,255,0.5);
+}
+
+#wallpaper {
+    background-image: url(wallpaper.jpg);
 }
