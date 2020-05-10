@@ -29,6 +29,7 @@ You only need access to a stable internet connection to use our website. To get 
 
 ## Acknowledgments
 
+* [Professor Harmon & CSCI 3715](http://web.bowdoin.edu/~sharmon/courses/3715/spr20/)
 * [GitHub Pages](https://pages.github.com)
 * [W3Schools](https://www.w3schools.com/bootstrap4/)
 * [Bootstrap](https://getbootstrap.com)
