@@ -1,11 +1,31 @@
-# TechTelligence PolarPals Website
-Right now, the website is only functional in order to accomplish one goal: Find a Study Group Post for Class B and count the number of comments in there. The links that do not work have been disabled and other functionalities are limited (such as being able to sign in).
+## PolarPals
 
-# Dependencies
-Our website depends on bootstrap. The images used were found on Google. For best experience, it is recommended to use Google Chrome to view the website. 
+PolarPals is a platform that is based around a common goal of all Bowdoin students: sharing. It is a digital space for Bowdoin students to share textbooks and form study groups. With the Textbooks section of our website, users can sell, rent buy or exchange textbooks with other students who may have taken the class previously. The Study Groups section on the other hand allows users to form groups to work on assignments or study for exams.
 
-# Authors
-Camilo Pareja, Jigyasa Subedi, Phuong Luong
+## Getting Started
 
-# Ackownledgements
-Bootstrap
+You only need access to a stable internet connection to use our website. To get started, you can go to: (https://jigyasasubedi.github.io/TechTelligence.github.io/)
+
+## Usage
+
+Upon clicking this link, you will reach the homepage of the website.
+
+## Built With
+
+* [Bootstrap]
+* [JavaScript]
+* [HTML]
+* [CSS]
+
+
+## Authors
+
+* **Camilo Pareja** (https://github.com/cam-gav)
+* **Jigyasa Subedi** (https://github.com/JigyasaSubedi)
+* **Phuong Luong** (https://github.com/pluong-244)
+
+## Acknowledgments
+
+* [GitHub Pages](https://pages.github.com)
+* [W3Schools] (https://www.w3schools.com/bootstrap4/)
+* [Bootstrap] (https://getbootstrap.com/docs/4.4/layout/overview/)
