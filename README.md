@@ -4,7 +4,7 @@ PolarPals is a platform that is based around a common goal of all Bowdoin studen
 
 ## Getting Started
 
-You only need access to a stable internet connection to use our website. To get started, you can go to: (https://jigyasasubedi.github.io/TechTelligence.github.io/)
+You only need access to a stable internet connection to use our website. Our website is best viewed on Google Chrome. To get started, you can go to: (https://jigyasasubedi.github.io/TechTelligence.github.io/)
 
 ## Usage
 
