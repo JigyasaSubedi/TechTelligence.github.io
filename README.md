@@ -27,5 +27,5 @@ Upon clicking this link, you will reach the homepage of the website.
 ## Acknowledgments
 
 * [GitHub Pages](https://pages.github.com)
-* [W3Schools] (https://www.w3schools.com/bootstrap4/)
-* [Bootstrap] (https://getbootstrap.com/docs/4.4/layout/overview/)
+* [W3Schools](https://www.w3schools.com/bootstrap4/)
+* [Bootstrap](https://getbootstrap.com)
